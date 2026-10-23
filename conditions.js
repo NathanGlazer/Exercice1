@@ -42,3 +42,46 @@ if(connecte == true && role == 'admin'){
     console.log("acces refuse");
 }
 //exercice 6
+let choix = 3
+switch (choix) {
+  case 1:
+    console.log("Nouvelle partie");
+    break;
+
+  case 2:
+    console.log("charger une partie");
+    break;
+
+  case 3:
+    console.log("Quitter");
+    break;  
+  default:
+   console.log("option invalide");
+}
+//exercice 7
+let mois = "janvier";
+switch(mois){
+    case "decembre":
+    case "janvier":
+    case "fevrier":
+        console.log("Hiver");
+        break;
+    case "mars":
+    case "avril":
+    case "mai":
+        console.log("Printemps");
+        break;
+    case "juin":
+    case "juillet":
+    case "aout":
+        console.log("ete");
+        break;
+    case "septembre":
+    case "octobre":
+    case "novembre":
+        console.log("automne");
+        break;
+
+    default:
+        console.log("non valide");
+}
